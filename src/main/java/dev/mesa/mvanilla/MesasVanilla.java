@@ -7,7 +7,7 @@ import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class MesaSVanilla implements ModInitializer {
+public class MesasVanilla implements ModInitializer {
 	public static final String MOD_ID = "mesas-vanilla";
 
 	// This logger is used to write text to the console and the log file.

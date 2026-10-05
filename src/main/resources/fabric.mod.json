@@ -16,10 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"dev.mesa.mvanilla.MesaSVanilla"
+			"dev.mesa.mvanilla.MesasVanilla"
 		],
 		"client": [
-			"dev.mesa.mvanilla.client.MesaSVanillaClient"
+          "dev.mesa.mvanilla.client.MesasVanillaClient"
+		],
+		"fabric-datagen": [
+			"dev.mesa.mvanilla.client.datagen.MesasVanillaDataGenerator"
 		]
 	},
 	"mixins": [
